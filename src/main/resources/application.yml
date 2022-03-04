@@ -1,0 +1,16 @@
+
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list:
+      - "localhost"
+
+#management:
+#  security: false
+#  endpoints:
+#    web:
+#      exposure:
+#        include: hystrix.stream
+#      base-path: /
+server:
+  port: 8081
